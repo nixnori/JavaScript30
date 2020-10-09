@@ -44,5 +44,7 @@ html {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
+    transition: all 0.05s;
     transform: rotate(90deg);
+    transition-timing-function: ease-in-out;
   }
